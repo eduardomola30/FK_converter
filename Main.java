@@ -7,7 +7,7 @@ public class Main {
         DecimalFormat fmt = new DecimalFormat("0.##");
 
         System.out.println("Enter a fahrenheit degree ");
-        double f = input.nextInt();
+        double f = input.nextdouble();
 
         // fahrenheit to kelvin
         double k;
